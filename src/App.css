@@ -1,0 +1,25 @@
+.list{
+  display: flex;
+  justify-content: space-evenly;
+ border:2px solid red;
+  cursor: pointer;
+  list-style: none;
+}
+.title{
+  position: relative;
+ 
+}
+.drop-list{
+  display: none;
+  position: absolute;
+  border: 1px solid black;
+  list-style: none;
+
+}
+.title:hover .drop-list{
+  display: block;
+  color: blue;
+}
+.title:hover{
+  color:blue
+}
